@@ -1,0 +1,45 @@
+.start-main button{
+  width: 100%;
+}
+
+.c-main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* position: relative; */
+}
+
+.q-main{
+    position: relative;
+}
+
+.c-main button{
+    cursor: pointer;
+}
+
+.c-main button{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.c-main .detail{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.model-main{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+    background-color: rgba(0, 0, 0, .6);
+    bottom: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.m-main{
+    padding: 30px;
+    background-color: white;
+    color: black;
+}
